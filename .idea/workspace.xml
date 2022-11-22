@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f92651-ae3e-4c2d-b13f-e36f58b287de" name="Changes" comment="요구사항&#10;&#10;1. 사람은 자식, 부모님, 조부모님이 있다.&#10;2. 모든 사람은 이름, 나이, 현재 장소정보(x,y좌표)가 있다.&#10;3. 모든 사람은 걸을 수 있다. 장소(x, y좌표)로 이동한다.&#10;4. 자식과 부모님은 뛸 수 있다. 장소(x, y좌표)로 이동한다.&#10;5. 조부모님의 기본속도는 1이다. 부모의 기본속도는 3, 자식의 기본속도는 5이다.&#10;6. 뛸때는 속도가 기본속도대비 +2 빠르다.&#10;7. 수영할때는 속도가 기본속도대비 +1 빠르다.&#10;8. 자식만 수영을 할 수 있다. 장소(x, y좌표)로 이동한다.&#10;&#10;위 요구사항을 만족하는 클래스들을 바탕으로, Main 함수를 다음 동작을 출력(`System.out.println`)하며 실행하도록 작성하시오. 이동하는 동작은 각자 순서가 맞아야 합니다.&#10;&#10;1. 모든 종류의 사람의 인스턴스는 1개씩 생성한다.&#10;2. 모든 사람의 처음 위치는 x,y 좌표가 (0,0)이다.&#10;3. 모든 사람의 이름, 나이, 속도, 현재위치를 확인한다.&#10;4. 걸을 수 있는 모든 사람이 (1, 1) 위치로 걷는다.&#10;5. 뛸 수 있는 모든 사람은 (2,2) 위치로 뛰어간다.&#10;6. 수영할 수 있는 모든 사람은 (3, -1)위치로 수영해서 간다." />
+    <list default="true" id="09f92651-ae3e-4c2d-b13f-e36f58b287de" name="Changes" comment="객체지향연습문제 복습" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669100730953</updated>
-      <workItem from="1669100732973" duration="4110000" />
+      <workItem from="1669100732973" duration="4495000" />
     </task>
     <task id="LOCAL-00001" summary="요구사항&#10;&#10;1. 사람은 자식, 부모님, 조부모님이 있다.&#10;2. 모든 사람은 이름, 나이, 현재 장소정보(x,y좌표)가 있다.&#10;3. 모든 사람은 걸을 수 있다. 장소(x, y좌표)로 이동한다.&#10;4. 자식과 부모님은 뛸 수 있다. 장소(x, y좌표)로 이동한다.&#10;5. 조부모님의 기본속도는 1이다. 부모의 기본속도는 3, 자식의 기본속도는 5이다.&#10;6. 뛸때는 속도가 기본속도대비 +2 빠르다.&#10;7. 수영할때는 속도가 기본속도대비 +1 빠르다.&#10;8. 자식만 수영을 할 수 있다. 장소(x, y좌표)로 이동한다.&#10;&#10;위 요구사항을 만족하는 클래스들을 바탕으로, Main 함수를 다음 동작을 출력(`System.out.println`)하며 실행하도록 작성하시오. 이동하는 동작은 각자 순서가 맞아야 합니다.&#10;&#10;1. 모든 종류의 사람의 인스턴스는 1개씩 생성한다.&#10;2. 모든 사람의 처음 위치는 x,y 좌표가 (0,0)이다.&#10;3. 모든 사람의 이름, 나이, 속도, 현재위치를 확인한다.&#10;4. 걸을 수 있는 모든 사람이 (1, 1) 위치로 걷는다.&#10;5. 뛸 수 있는 모든 사람은 (2,2) 위치로 뛰어간다.&#10;6. 수영할 수 있는 모든 사람은 (3, -1)위치로 수영해서 간다.">
       <created>1669104809807</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669104809807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="객체지향연습문제 복습">
+      <created>1669104884741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104884741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="요구사항&#10;&#10;1. 사람은 자식, 부모님, 조부모님이 있다.&#10;2. 모든 사람은 이름, 나이, 현재 장소정보(x,y좌표)가 있다.&#10;3. 모든 사람은 걸을 수 있다. 장소(x, y좌표)로 이동한다.&#10;4. 자식과 부모님은 뛸 수 있다. 장소(x, y좌표)로 이동한다.&#10;5. 조부모님의 기본속도는 1이다. 부모의 기본속도는 3, 자식의 기본속도는 5이다.&#10;6. 뛸때는 속도가 기본속도대비 +2 빠르다.&#10;7. 수영할때는 속도가 기본속도대비 +1 빠르다.&#10;8. 자식만 수영을 할 수 있다. 장소(x, y좌표)로 이동한다.&#10;&#10;위 요구사항을 만족하는 클래스들을 바탕으로, Main 함수를 다음 동작을 출력(`System.out.println`)하며 실행하도록 작성하시오. 이동하는 동작은 각자 순서가 맞아야 합니다.&#10;&#10;1. 모든 종류의 사람의 인스턴스는 1개씩 생성한다.&#10;2. 모든 사람의 처음 위치는 x,y 좌표가 (0,0)이다.&#10;3. 모든 사람의 이름, 나이, 속도, 현재위치를 확인한다.&#10;4. 걸을 수 있는 모든 사람이 (1, 1) 위치로 걷는다.&#10;5. 뛸 수 있는 모든 사람은 (2,2) 위치로 뛰어간다.&#10;6. 수영할 수 있는 모든 사람은 (3, -1)위치로 수영해서 간다." />
-    <option name="LAST_COMMIT_MESSAGE" value="요구사항&#10;&#10;1. 사람은 자식, 부모님, 조부모님이 있다.&#10;2. 모든 사람은 이름, 나이, 현재 장소정보(x,y좌표)가 있다.&#10;3. 모든 사람은 걸을 수 있다. 장소(x, y좌표)로 이동한다.&#10;4. 자식과 부모님은 뛸 수 있다. 장소(x, y좌표)로 이동한다.&#10;5. 조부모님의 기본속도는 1이다. 부모의 기본속도는 3, 자식의 기본속도는 5이다.&#10;6. 뛸때는 속도가 기본속도대비 +2 빠르다.&#10;7. 수영할때는 속도가 기본속도대비 +1 빠르다.&#10;8. 자식만 수영을 할 수 있다. 장소(x, y좌표)로 이동한다.&#10;&#10;위 요구사항을 만족하는 클래스들을 바탕으로, Main 함수를 다음 동작을 출력(`System.out.println`)하며 실행하도록 작성하시오. 이동하는 동작은 각자 순서가 맞아야 합니다.&#10;&#10;1. 모든 종류의 사람의 인스턴스는 1개씩 생성한다.&#10;2. 모든 사람의 처음 위치는 x,y 좌표가 (0,0)이다.&#10;3. 모든 사람의 이름, 나이, 속도, 현재위치를 확인한다.&#10;4. 걸을 수 있는 모든 사람이 (1, 1) 위치로 걷는다.&#10;5. 뛸 수 있는 모든 사람은 (2,2) 위치로 뛰어간다.&#10;6. 수영할 수 있는 모든 사람은 (3, -1)위치로 수영해서 간다." />
+    <MESSAGE value="객체지향연습문제 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체지향연습문제 복습" />
   </component>
 </project>
